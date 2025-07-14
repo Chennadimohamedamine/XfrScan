@@ -25,8 +25,3 @@ pip install -r requirements.txt
 ```bash
 python3 zone_transfer_check.py example.com
 ```
-
-## © Copyright
-
-© 2025 [mohamed amine]
-All rights reserved.
