@@ -23,5 +23,5 @@ pip install -r requirements.txt
 ## 🧪 Usage
 
 ```bash
-python3 zone_transfer_check.py example.com
+python3 XfrScan.py example.com
 ```
