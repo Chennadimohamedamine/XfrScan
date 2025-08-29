@@ -22,7 +22,31 @@ pip install -r requirements.txt
 ```
 ## 🧪 Usage
 
+### Single Domain
 ```bash
-python3 XfrScan.py example.com
+python3 XfrScan.py -d example.com
 ```
+### Multiple Domains from File
+```
+python3 XfrScan.py -dl list.txt
+```
+### Show Help
+```
+python3 XfrScan.py -h
+```
+### Show Version
+```
+python3 XfrScan.py -v
+```
+## Example Output
+```
+=== Testing zonetransfer.me ===
+[!!] Zone transfer successful on zonetransfer.me -> nsztm1.digi.ninja (81.4.108.41)
 
+_acme-challenge.zonetransfer.me. 7200 IN TXT "abc123"
+...
+
+=== Testing example.com ===
+[+] No name servers allow zone transfer for example.com. Looks good.
+
+```
