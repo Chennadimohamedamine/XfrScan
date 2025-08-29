@@ -13,8 +13,8 @@ A simple Python script to check if any nameservers for a given domain allow **DN
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/zone-transfer-check.git
-cd zone-transfer-check
+git clone git@github.com:Chennadimohamedamine/XfrScan.git
+cd XfrScan
 ```
 ### 2. Install dependencies
 ```bash
@@ -25,3 +25,4 @@ pip install -r requirements.txt
 ```bash
 python3 XfrScan.py example.com
 ```
+
